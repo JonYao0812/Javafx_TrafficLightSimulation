@@ -28,7 +28,7 @@ import javafx.stage.Stage;
  * @author chengzhongito
  */
 public class TrafficLight extends Application{
-    
+  //Create circle representing traffic lights  
     Circle redCircle = new Circle(40,50,25, Color.GRAY);
     Circle yellowCircle = new Circle(105,50,25, Color.GRAY);
     Circle greenCircle = new Circle(170,50,25, Color.GRAY);
